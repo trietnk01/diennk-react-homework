@@ -1,0 +1,30 @@
+.boxComponent {
+  max-width: 1024px;
+  .boxSearch {
+    border-radius: 4px;
+    height: 40px;
+    width: 400px;
+    padding: 2px 2px;
+    .btnSearch {
+      width: 35px;
+      border-radius: 4px;
+      font-size: 14px;
+      margin-left: 5px;
+    }
+  }
+}
+.box {
+  width: 400px;
+  height: 400px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  &__item {
+    width: 50%;
+    height: 50%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+  }
+}
